@@ -1,0 +1,155 @@
+/* Reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
+}
+
+/* Background tetap */
+.bg-fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('singosari.jpg');
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+}
+
+/* Navbar */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 5%;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+    position: fixed;
+    width: 90%;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 10px;
+    z-index: 100;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo {
+    width: 50px;
+    height: auto;
+}
+
+.nav .li {
+    font-size: 16px;
+    color: white;
+}
+
+.links {
+    display: flex;
+    gap: 20px;
+}
+
+.links li {
+    list-style: none;
+}
+
+.links a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 8px 12px;
+    transition: 0.3s;
+    border-radius: 5px;
+}
+
+.links a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Konten */
+.isi {
+    max-width: 800px;
+    margin: 200px auto 50px;
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 15px;
+}
+
+.isi h1 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+
+.isi p {
+    margin-bottom: 15px;
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+/* Tombol */
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 50px;
+}
+
+button.kunjungan, button.pengaduan {
+    background-color: #1f196b;
+    color: white;
+    border: 2px solid white;
+    border-radius: 8px;
+    padding: 12px 25px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button.kunjungan:hover, button.pengaduan:hover {
+    background-color: #3b2fa5;
+}
+
+/* Responsif */
+@media screen and (max-width: 768px) {
+    .isi {
+        margin: 180px 20px 40px;
+        padding: 15px;
+    }
+
+    .isi h1 {
+        font-size: 1.5rem;
+    }
+
+    .links {
+        flex-direction: column;
+        background-color: rgba(0,0,0,0.9);
+        position: absolute;
+        top: 80px;
+        right: 5%;
+        padding: 10px;
+        border-radius: 10px;
+        display: none;
+    }
+
+    .links.show {
+        display: flex;
+    }
+
+    .buttons {
+        flex-direction: column;
+        gap: 15px;
+    }
+}

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desa Watugede – Sejarah, Budaya, dan Alam</title>
+    <style>
+         body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #e6f7e6; /* hijau muda */
+            color: #333;
+        }
+
+        header {
+            position: relative;
+            height: 250px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-align: center;
+            font-size: 2rem;
+            font-weight: bold;
+            background-image: url('https://images.unsplash.com/photo-1506744038136-46273834b3fb'); /* ganti dengan foto desa Watugede jika ada */
+            background-size: cover;
+            background-position: center;
+        }
+
+        /* overlay agar teks lebih terbaca */
+        header::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.4);
+            z-index: 0;
+        }
+
+        header h1 {
+            position: relative;
+            z-index: 1;
+            padding: 0 20px;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 40px auto;
+            background: rgba(255,255,255,0.95);
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+            line-height: 1.8;
+        }
+
+        p {
+            margin-bottom: 20px;
+            text-align: justify;
+        }
+
+        a.button {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #4caf50;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            transition: 0.3s;
+        }
+
+        a.button:hover {
+            background-color: #388e3c;
+        }
+
+        footer {
+            background-color: #2e7d32;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 50px;
+        }
+
+        @media(max-width:768px){
+            header h1 {
+                font-size: 1.6rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        Selamat Datang di Website Resmi Desa Watugede
+    </header>
+
+    <div class="container">
+        <p>
+            Desa Watugede, yang terletak di Kecamatan Singosari, Kabupaten Malang, Jawa Timur, adalah desa yang kaya akan sejarah, budaya, dan keindahan alam. Desa ini berada di dataran tinggi dengan ketinggian sekitar 487 meter di atas permukaan laut, dikelilingi oleh sawah, tegalan, perkebunan, dan pemukiman yang asri, 
+            sehingga menghadirkan suasana sejuk dan nyaman bagi warganya maupun pengunjung. 
+            Secara administratif, Desa Watugede terbagi menjadi beberapa dusun dan rukun warga, yang masing-masing memiliki fasilitas umum seperti balai desa, posyandu, sekolah dasar, dan sarana olahraga, sehingga menunjang kehidupan sosial dan pendidikan masyarakat setempat.
+        </p>
+
+        <p>
+            Jumlah penduduk Desa Watugede diperkirakan sekitar 8.844 jiwa, dengan mayoritas bekerja sebagai petani, pedagang, dan pengrajin lokal. 
+            Mata pencaharian utama berupa pertanian tradisional dan perkebunan, yang menghasilkan produk lokal seperti sayuran, buah-buahan, dan tanaman hortikultura. 
+            Selain itu, beberapa warga juga mengembangkan usaha kecil menengah dan pariwisata lokal, terutama yang berkaitan dengan situs sejarah dan alam sekitar desa.
+        </p>
+
+        <p>
+            Salah satu daya tarik utama Desa Watugede adalah Petirtaan Watugede, sebuah situs peninggalan Kerajaan Singosari yang berfungsi sebagai tempat pemandian raja dan putri pada abad ke-13. 
+            Petirtaan ini ditemukan oleh arkeolog Belanda pada tahun 1925 dan hingga kini tetap menjadi objek wisata sejarah dan spiritual yang menarik bagi masyarakat maupun wisatawan. 
+            Desa ini juga dikenal memiliki sumber mata air alami yang melimpah, menjadikannya desa yang subur dan strategis untuk pengembangan pertanian serta wisata alam.
+        </p>
+
+        <p>
+            Selain itu, Desa Watugede aktif dalam berbagai program pemberdayaan masyarakat dan kegiatan sosial. 
+            Desa ini rutin mengadakan program Kampung KB, pelatihan keterampilan warga, dan bekerjasama dengan mahasiswa melalui program Kuliah Kerja Nyata (KKN) dan Merdeka Belajar Kampus Merdeka (MBKM). 
+            Hal ini menjadikan Desa Watugede tidak hanya kaya akan sejarah dan budaya, tetapi juga progresif dalam pembangunan komunitas, pendidikan, dan pengembangan ekonomi lokal. Keberadaan situs bersejarah, 
+            suasana alam yang sejuk, dan partisipasi aktif masyarakat menjadikan Desa Watugede sebagai salah satu desa yang menarik untuk dikunjungi dan dipelajari, baik dari sisi budaya, sejarah, maupun potensi pengembangan warganya.
+        </p>
+    
+        <a href="3profil desa.html" class="button">Profil Desa</a>
+        <a href="index.html" class="button">Kembali ke Beranda</a>
+    </div>
+
+    <footer>
+        &copy; 2025 Desa Watugede, Kabupaten Malang. Semua hak dilindungi.
+    </footer>
+</body>
+</html>

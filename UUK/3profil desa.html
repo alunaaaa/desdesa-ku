@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil Desa Watugede</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #e6f7e6;
+            color: #333;
+        }
+
+        header {
+            position: relative;
+            height: 250px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-align: center;
+            font-size: 2rem;
+            font-weight: bold;
+            background-image: url('https://images.unsplash.com/photo-1506744038136-46273834b3fb'); /* ganti dengan foto desa Watugede */
+            background-size: cover;
+            background-position: center;
+        }
+
+        header::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0,0,0,0.4);
+            z-index: 0;
+        }
+
+        header h1 {
+            position: relative;
+            z-index: 1;
+            padding: 0 20px;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 40px auto;
+            background: rgba(255,255,255,0.95);
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+            line-height: 1.8;
+        }
+
+        h2 {
+            color: #2e7d32;
+            margin-top: 30px;
+            margin-bottom: 15px;
+        }
+
+        ul {
+            list-style-type: disc;
+            padding-left: 20px;
+        }
+
+        p {
+            margin-bottom: 20px;
+            text-align: justify;
+        }
+
+
+       .buttons {
+            margin-top: 30px;
+            display: flex;
+            justify-content: flex-start; /* tombol di kiri */
+            gap: 10px; /* jarak antar tombol */
+        }
+
+        a.button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #4caf50;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            transition: 0.3s;
+        }
+
+        a.button:hover {
+            background-color: #388e3c;
+        }
+
+        footer {
+            background-color: #2e7d32;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 50px;
+        }
+
+        @media(max-width:768px){
+            header h1 {
+                font-size: 1.6rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Profil Desa Watugede</h1>
+    </header>
+
+    <div class="container">
+        <h2>Informasi Umum</h2>
+        <p>
+            Desa Watugede terletak di Kecamatan Singosari, Kabupaten Malang, Provinsi Jawa Timur. Desa ini memiliki luas wilayah sekitar 315,334 hektar dan merupakan salah satu desa yang cukup besar di Kecamatan Singosari.
+        </p>
+
+        <h2>Keunikan dan Potensi Wisata</h2>
+        <p>
+            Salah satu daya tarik utama Desa Watugede adalah Petirtaan Watugede, sebuah pemandian bersejarah yang konon digunakan oleh putri-putri Raja Singasari, termasuk Ken Dedes. Petirtaan ini terletak sekitar 2 km dari Candi Singosari dan masih menyimpan kolam serta patung-patung peninggalan kerajaan.
+        </p>
+
+        <h2>Demografi dan Administrasi</h2>
+        <p>
+            Desa Watugede terdiri dari 3 dusun: Dusun Sanan, Dusun Krajan, dan Dusun Boro. Secara administratif, desa ini memiliki 7 Rukun Warga (RW) dan 19 Rukun Tetangga (RT). Jumlah penduduk sekitar 3.228 jiwa, mayoritas beragama Islam dan berasal dari suku Jawa.
+        </p>
+
+        <h2>Sarana dan Prasarana</h2>
+        <ul>
+            <li><strong>Pendidikan:</strong> Fasilitas mulai dari TK, SD, SMP, SMA, hingga Pondok Pesantren.</li>
+            <li><strong>Kesehatan:</strong> Terdapat Poliklinik Desa untuk pelayanan kesehatan masyarakat.</li>
+            <li><strong>Transportasi:</strong> Infrastruktur jalan yang baik dengan aspal/beton dan angkutan trayek tetap.</li>
+            <li><strong>Komunikasi:</strong> 1 Base Transceiver Station (BTS) dan layanan internet di kantor desa.</li>
+        </ul>
+
+        <h2>Pemerintahan Desa</h2>
+        <p>
+            Pemerintahan Desa Watugede terdiri dari 11 perangkat desa, yaitu Kepala Desa, Sekretaris Desa, Kepala Dusun, Kaur Pemerintahan, Kaur Umum, Kaur Pembangunan, Kaur Keuangan, Kaur Kesejahteraan Rakyat, dan Pembantu Umum. Masing-masing perangkat desa memiliki tugas dan tanggung jawab dalam menjalankan pemerintahan dan pelayanan kepada masyarakat.
+        </p>
+
+        <p>
+            Secara keseluruhan, Desa Watugede memiliki potensi wisata sejarah yang kaya, didukung fasilitas umum memadai dan struktur pemerintahan solid untuk mendukung pembangunan dan kesejahteraan masyarakat. Informasi lebih lanjut dapat diakses melalui situs resmi desa atau media sosial desa.
+        </p>
+
+        <a href="2home.html" class="button">Kembali ke Sebelumnya</a> 
+        <a href="4infografis.html" class="button">Infografis</a>
+    </div>
+
+    <footer>
+        &copy; 2025 Desa Banyumurni, Sukabumi. Semua hak dilindungi.
+    </footer>
+</body>
+</html>
